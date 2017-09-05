@@ -1,0 +1,61 @@
+
+
+public
+class Cilindro {
+
+                private Double radio;
+
+                private Double altura;
+
+                
+
+                public Cilindro (double radio,
+double altura){
+
+                }
+
+                public double getRadio(){
+
+                               return radio;
+
+                }
+
+                public double getAltura(){
+
+                               return altura;
+
+                }
+
+                public void setRadio(double
+radio){
+
+                               this.radio=radio;
+
+                }
+
+                public void setAltura(double
+altura){
+
+                               this.altura=altura;
+
+                }
+
+                public double calcualrArea (){
+
+                               return
+(Math.PI*Math.pow(radio,2)*2)+(altura*radio);
+
+                }
+
+                public double calcularVolumen
+(){
+
+                               return
+(Math.PI*Math.pow(radio,2)*altura);
+
+                }
+
+                
+
+}
+
